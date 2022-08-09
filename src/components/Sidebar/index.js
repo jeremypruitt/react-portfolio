@@ -2,6 +2,11 @@ import './index.scss'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faLinkedin,
+  faGithub,
+  faYoutube,
+} from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope, faSuitcase } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -23,6 +28,35 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
       </nav>
+      <ul>
+        <li>
+          <a
+             target="_blank"
+             rel="noreferrer"
+             href="https://www.linkedin.com/in/jeremypruitt/"
+          >
+            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
+          <a
+             target="_blank"
+             rel="noreferrer"
+             href="https://github.com/jeremypruitt"
+          >
+            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
+          <a
+             target="_blank"
+             rel="noreferrer"
+             href="https://www.youtube.com/c/trailswehike/"
+          >
+            <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+          </a>
+        </li>
+      </ul>
     </div>
   )
 }
