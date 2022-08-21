@@ -1,6 +1,5 @@
 import './index.scss'
-import LogoS from '../../assets/images/jeremypruitt-logo.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
+import LogoJ from '../../assets/images/jeremypruitt-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
@@ -14,8 +13,7 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="jeremypruitt" />
+        <img src={LogoJ} alt="Logo" />
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
