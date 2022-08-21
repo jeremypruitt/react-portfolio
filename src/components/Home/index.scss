@@ -4,13 +4,12 @@
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 40%;
+    width: 100%;
     max-height: 90%;
   }
 
   h1 {
     color: #fff;
-    font-size: 56px;
     line-height: 53px;
     margin: 0;
     font-family: 'Coolvetica';
@@ -35,14 +34,17 @@
       position: absolute;
       margin-top: 18px;
       margin-left: 20px;
-      animation: fadeIn 1s 1.7s backwards;
+      animation: fadeIn 1s 3.7s backwards;
       opacity: 0.6;
     }
 
     img {
-      margin-left: 20px;
+      vertical-align: middle;
+      margin-left: 2px;
+      margin-right: -5px;
+      margin-bottom: -10px;
       opacity: 0;
-      width: 32px;
+      width: 50px;
       height: auto;
       animation: rotateIn 1s linear both;
       animation-delay: 1.4s;
@@ -76,6 +78,38 @@
     &:hover {
       background: #ffd700;
       color: #333;
+    }
+  }
+}
+
+/* For Desktop */
+@media screen and (min-width: 541px) {
+  .home-page {
+    .text-zone {
+      margin-left: 10%;
+    }
+    h1 {
+      font-size: 56px;
+    }
+  }
+}
+
+/* For Phone */
+@media screen and (max-width: 540px) {
+  .home-page {
+    .text-zone {
+      margin-left: 0;
+      top: 205px;
+      left: 9%;
+    }
+    h1 {
+      line-height: 13px;
+      font-size: 40px;
+
+      &:after {
+        margin-top: 18px;
+        margin-left: 10px;
+      }
     }
   }
 }
