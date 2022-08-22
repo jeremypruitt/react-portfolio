@@ -2,7 +2,7 @@
   width: 50%;
   height: 100%;
   top: 0;
-  padding-top: 18%;
+  padding-top: 10%;
   margin-left: 0;
   position: absolute;
   right: 0;
@@ -148,9 +148,6 @@
 
 }
 
-/* For Desktop */
-@media screen and (min-width: 541px) { }
-
 /* For Phone */
 @media screen and (max-width: 540px) {
   .about-page {
@@ -179,6 +176,7 @@
     top: 48%;
     right: 25%;
     overflow: unset;
+    padding-top: 5%;
     /*height: 100%;
     top: 0;
     padding-top: 18%;
@@ -200,3 +198,11 @@
     }
   }
 }
+
+/* For Small Phone */
+@media screen and (max-width: 389px) {
+  .stage-cube-cont {
+    padding-top: 18%;
+  }
+}
+
