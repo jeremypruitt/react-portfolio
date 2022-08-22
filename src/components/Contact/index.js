@@ -11,7 +11,7 @@ const Contact = () => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, []);
- 
+
   return (
     <>
       <div className='container contact-page'>
@@ -24,7 +24,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Let me know if you have any comment or questions :)
+            Let me know if you have any comment or questions
           </p>
         </div>
       </div>

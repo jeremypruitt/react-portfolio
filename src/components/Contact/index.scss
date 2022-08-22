@@ -27,7 +27,7 @@
     }
 
     &:after {
-      content: '<h1/>';
+      content: '</h1>';
       font-family: 'La Belle Aurore', cursive;
       color: #ffd700;
       font-size: 18px;
@@ -86,7 +86,7 @@
 @media screen and (min-width: 541px) {
   .contact-page {
     .text-zone {
-      left: 105px;
+      left: 84px;
     }
     h1 {
       font-size: 56px;
